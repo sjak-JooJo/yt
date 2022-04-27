@@ -25,6 +25,10 @@ section{
     align-items: center;
     justify-content: center;
 }
+#hero h1{
+    font-weight: 600;
+    letter-spacing: 2px;
+}
 .overlay{
     position: relative;
     z-index: 2;
@@ -56,3 +60,19 @@ section{
     background-color: transparent;
     border-color: #3a8878;
 }
+.navbar{
+    transition: all 0.4 ease;
+}
+
+.navbar-dark .navbar-nav .nav-link.active{
+    color: #3a8878;
+}
+
+.intro .divider{
+    background-color: #3a8878;
+    height: 2px;
+    width: 120px;
+    margin: 18px auto;
+
+}
+
